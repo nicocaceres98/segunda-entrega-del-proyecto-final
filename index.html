@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GameShop</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Palette+Mosaic&display=swap" rel="stylesheet">
+  <link href="https: //fonts.googleapis.com/css2?" family=Bebas+Neue & familia=PT+Sans+Estrecho &family=Palette+Mosaic &
+    display=swap rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="grid-container">
+
+  <header class="header">
+    <img classs="logo" src="multimedia/gameshop-final.png" height="200" width="300" alt="foto">
+    <div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="productos.html">Productos</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="ayuda.html">Ayuda</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- ===================================================== -->
+  <nav class="navbar">
+    <div>
+      <!-- Bootstrap- Carousel  -->
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="multimedia/inicio1.jpg" class="d-block w-500" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="multimedia/inicio02.jpg" class="d-block w-500" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="multimedia/inicio03.jpg" class="d-block w-500" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </nav>
+  <!-- ===================================================== -->
+  <article class="main">
+    <h2> DESTACADOS </h2>
+    <!-- ========= Bootstrap CARD========= -->
+    <div class="card-group">
+      <div class="card">
+        <img src="multimedia/producto1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Colorful RTX3070 iGame Ultra OC LHR W 8GB GDDR6</h5>
+          <p class="card-text">$ 158.229</p>
+          <p class="card-text"><small class="text-muted">-Últimas unidades en stock-</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="multimedia/producto2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Combo Colorful RTX3070 Ti iGame Vulcan OC 8GB GDDR6X + Redragon GC-PS010 850W 80+
+            Gold</h5>
+          <p class="card-text">$ 227.379</p>
+          <p class="card-text"><small class="text-muted">-Últimas unidades en stock-</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="multimedia/producto3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Colorful RTX3070 Ti iGame Vulcan OC 8GB GDDR6X</h5>
+          <p class="card-text">$ 196.649</p>
+          <p class="card-text"><small class="text-muted">-Últimas unidades en stock-</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="multimedia/producto4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Notebook Lenovo Thinkpad L15 i5-1135 G7 15,6'' HD 8GB RAM 256GB SSD NVMe</h5>
+          <p class="card-text">$ 162.649</p>
+          <p class="card-text"><small class="text-muted">-Últimas unidades en stock-</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="multimedia/producto5.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">PowerColor AMD Radeon BC-2235 10GB GDDR6</h5>
+          <p class="card-text">$ 153.549</p>
+          <p class="card-text"><small class="text-muted">-Últimas unidades en stock-</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="multimedia/producto6.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Asus X515EA-EJ1343 i5-1135G7 Gris</h5>
+          <p class="card-text">$ 131.559</p>
+          <p class="card-text"><small class="text-muted">-Últimas unidades en stock-</small></p>
+        </div>
+      </div>
+    </div>
+  </article>
+  <!-- ========================================== -->
+  <!--Carousel en movimiento de marcas-->
+  <aside class="sidebar">
+    <div class="slider">
+      <div class="slide-track">
+        <div class=" slide">
+          <img src="multimedia/imagen_marca_1.jpg" height="100" width="200" alt="" />
+        </div>
+        <div class="slide">
+          <img src="multimedia/imagen_marca_2.jpg" height="100" width="200" alt="" />
+        </div>
+        <div class="slide">
+          <img src="multimedia/imagen_marca_3.jpg" height="100" width="200" alt="" />
+        </div>
+        <div class="slide">
+          <img src="multimedia/imagen_marca_4.jpg" height="100" width="200" alt="" />
+        </div>
+        <div class="slide">
+          <img src="multimedia/imagen_marca_5.jpg" height="100" width="200" alt="" />
+        </div>
+        <div class="slide">
+          <img src="multimedia/imagen_marca_6.jpg" height="100" width="200" alt="" />
+        </div>
+        <div class="slide">
+          <img src="multimedia/imagen_marca_7.jpg" height="100" width="200" alt="" />
+        </div>
+        <div class="slide">
+          <img src="multimedia/imagen_marca_8.jpg" height="100" width="200" alt="" />
+        </div>
+        <div class="slide">
+          <img src="multimedia/imagen_marca_9.jpg" height="100" width="200" alt="" />
+        </div>
+        <div class="slide">
+          <img src="multimedia/imagen_marca_10.jpg" height="100" width="200" alt="" />
+        </div>
+        <div class="slide">
+          <img src="multimedia/imagen_marca_11.jpg" height="100" width="200" alt="" />
+        </div>
+        <div class="slide">
+          <img src="multimedia/imagen_marca_12.jpg" height="100" width="200" alt="" />
+        </div>
+        <div class="slide">
+          <img src="multimedia/imagen_marca_13.jpg" height="100" width="200" alt="" />
+        </div>
+        <div class="slide">
+          <img src="multimedia/imagen_marca_14.jpg" height="100" width="200" alt="" />
+        </div>
+      </div>
+    </div>
+  </aside>
+  <!-- ===================================================== -->
+  <!-- /* =============== Inicio del footer =============== */ -->
+  <!-- Bootstrap - Footer -->
+  <footer class="footer">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Seguinos en nuestras redes sociales:</span>
+        <img src="multimedia/instagram2.png" alt="foto">
+        <img src="multimedia/gorjeo.png" alt="foto">
+        <img src="multimedia/facebook.png" alt="foto">
+        <img src="multimedia/whatsapp.png" alt="foto">
+      </div>
+      <!-- Left -->
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>GAMESHOP - TIENDA GAMER
+            </h6>
+            <p>
+              Tienda Gamer de computación y videojuegos, ubicada en Córdoba, contamos con variedad en juegos de
+              Ps4, Nintendo Switch.
+              Mouse, teclados mecánicos y componentes para que armes tu Pc a medida.
+            </p>
+          </div>
+          <!-- Grid column -->
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              INFORMACION
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Inicio</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Productos</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Nosotros</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Marcas</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Contacto</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              PRODUCTOS
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Notebooks</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Consolas de Video Juegos</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Placas de Video</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Teclados y Mouses</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Procesadores</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Contactanos
+            </h6>
+            <p><i class="fas fa-home me-3"></i> Herman Huberman 1750, cba, Argentina.</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              ventas@gameshop.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> +5493517719671</p>
+            <p><i class="fas fa-print me-3"></i> +5493517719671</p>
+            <p><i class="fas fa-print me-3"></i> Lunes a viernes de 10:00 a 18:30 hs - Sábados 10 a 14hs</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2022 Copyright: GameShop
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/"></a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Bootstrap - Footer -->
+  <!-- /* =============== Fin del footer =============== */ -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
